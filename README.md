@@ -1,8 +1,8 @@
 ### Yandex.Share with Counters Update
 
 
-There is a problem with Yandex.Share with Counters field. If you add Yandex.Share with Counters field to a content
-type it won't display counters for existing nodes.
+There is a problem with Yandex.Share with Counters field (https://github.com/paulanders/yashare_counters).
+If you add Yandex.Share with Counters field to a content type it won't display counters for existing nodes.
 Previously you had to update the nodes manually to make Yandex.Share with Counters field visible.
 
 Now you have this module. It allows you to update necessary fields of chosen content type.

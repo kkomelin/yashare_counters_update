@@ -134,7 +134,6 @@ function yashare_counters_update_operation($node, $field, $operation_details, &$
   }
   foreach ($node->{$field} as $language => $item) {
     $node->{$field}[$language][0]['value'] = '1';
-    drupal_set_message(print_r($node->{$field}, 1));
     field_attach_presave('node', $node);
     field_attach_update('node', $node);
   }
