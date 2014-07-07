@@ -1,0 +1,7 @@
+name = Yandex.Share with Counters Update
+description = "Updates Yandex.Share with Counters fields to make them visible in nodes"
+core = 7.x
+
+dependencies[] = yashare_counters
+
+configure = admin/config/development/yashare_counters_update
