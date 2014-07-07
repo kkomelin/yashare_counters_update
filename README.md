@@ -1,4 +1,4 @@
-### Yandex.Share with Counters Update
+## Yandex.Share with Counters Update
 
 
 There is a problem with Yandex.Share with Counters field (https://github.com/paulanders/yashare_counters).
@@ -10,12 +10,12 @@ The module uses Batch API to process big number of nodes.
 Moreover, it doesn't call heavy node_save() and updates necessary fields only.
 
 
-##DEPENDENCY
+###DEPENDENCY
 ------------------------------------------------------------------------------
 - https://github.com/paulanders/yashare_counters
 
 
-##USAGE
+###USAGE
 ------------------------------------------------------------------------------
 1. Backup your database!
 2. Install module.
@@ -26,6 +26,6 @@ But you will see current progress. Thanks for it to Drupal Batch API.
 6. Profit.
 
 
-##DEVELOPER
+###DEVELOPER
 ------------------------------------------------------------------------------
 Konstantin Komelin https://github.com/konstantin-komelin
